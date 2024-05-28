@@ -3,7 +3,7 @@ Website Solar Tracker adalah platform online yang melakukan pemantauan terhadap 
 
 ## Demo
 
-[https://plusplustudio.vercel.app/](https://solartracker.vercel.app/)
+https://solartracker.vercel.app/
 
 
 ## Interfaces
