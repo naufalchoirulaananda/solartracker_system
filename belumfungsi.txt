@@ -1,0 +1,45 @@
+{/* Record Table Card */}
+                <div className="flex flex-col p-6 w-full mx-auto text-center shadow text-gray-900 bg-white border rounded-xl border-gray-100 xl:p-4 mb-4 sm:mb-0">
+                  <div className="w-full bg-slate-500 h-auto rounded-xl mb-4">
+                    <Image
+                      className="h-[20px] w-full rounded-xl object-cover"
+                      src={
+                        "https://res.cloudinary.com/dgnmqbglc/image/upload/v1711400631/IoT%20Monitoring/14579711_5488082_s0m994.jpg"
+                      }
+                      alt={"coming-soon"}
+                      width={300}
+                      height={200}
+                      priority={true}
+                      sizes="(max-width: 640px) 100vw,
+            (max-width: 768px) 80vw,
+            (max-width: 1024px) 60vw,
+            50vw
+            "
+                    />
+                  </div>
+                  <div className="grid grid-cols-1 gap-2">
+                    <div className="flex flex-col items-start">
+                      <p className="text-base font-semibold text-left">
+                        Download & Tabel Data
+                      </p>
+                      <p className="text-sm text-justify text-gray-400 font-light">
+                        Lihat data dalam bentuk tabel dan download data bentuk CSV.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="w-full border-t-[1.5px] border-gray-200 my-4"></div>
+                  <div className="flex gap-4">
+                    <button
+                      className="text-[12px] text-white font-medium p-2 bg-sky-950 rounded-lg w-full"
+                      onClick={handleExportCSV}
+                    >
+                      Export to .csv
+                    </button>
+                    <Link
+                      href={"detailrecord"}
+                      className="text-[12px] text-white font-medium p-2 bg-sky-950 rounded-lg w-full"
+                    >
+                      View Data Detail Records
+                    </Link>
+                  </div>
+                </div>
